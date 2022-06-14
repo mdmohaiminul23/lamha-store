@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./src/css/slick.css" />
+    <link rel="stylesheet" href="./src/css/slick-theme.css" />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Lamha</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <nav class="navbar-wrap">
+          <div class="logo-wrap">
+            <a href="./index.html" class="logo">
+              <img src="src/images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Price</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Platform Experience</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+            <li class="navbar-item language">
+              <!-- <a href="#" class="navbar-link"> -->
+              <div class="language-selector">
+                <div class="drop-down">
+                  <div class="selected">
+                    <a href="#"
+                      ><span
+                        ><img
+                          class="flag-img"
+                          src="https://img.icons8.com/color/48/undefined/usa-circular.png"
+                        />
+                        &nbsp; EN &nbsp;&nbsp; <i class="fas fa-angle-down"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="options">
+                    <ul>
+                      <li>
+                        <a href="#"
+                          ><img
+                            class="flag-img"
+                            src="https://img.icons8.com/color/48/undefined/usa-circular.png"
+                          />&nbsp; EN <span class="value">1</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><img
+                            class="flag-img"
+                            src="https://img.icons8.com/color/48/undefined/qatar-circular.png"
+                          />
+                          &nbsp;QTY <span class="value">2</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- </a> -->
+            </li>
+            <li class="navbar-item sign-btn">
+              <a href="#" class="navbar-link">Sign In</a>
+            </li>
+            <li class="navbar-item store-btn">
+              <a href="#" class="navbar-link">Create Store</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-slider">
+        <div
+          class="carousel slide"
+          data-ride="carousel"
+          id="carouselExampleIndicators"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./src/images/Banner.png"
+                alt="First slide"
+              />
+              <div class="caption-carousel">
+                <div class="main-heading">
+                  <h2 class="subtitle-one">All The Tools</h2>
+                  <h2 class="subtitle-two">You Need To</h2>
+                  <h1 class="title">Build A Successful Store...</h1>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Nostrum voluptate aspernatur nam ratione harum eum! Nostrum
+                    voluptate aspernatur nam ratione harum eum!
+                  </p>
+                </div>
+                <a class="btn-custom btn-hero">Get started</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./src/images/Banner.png"
+                alt="Second slide"
+              />
+              <div class="caption-carousel">
+                <div class="main-heading">
+                  <h2 class="subtitle-one">All The Tools</h2>
+                  <h2 class="subtitle-two">You Need To</h2>
+                  <h1 class="title">Build A Successful Store...</h1>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Nostrum voluptate aspernatur nam ratione harum eum! Nostrum
+                    voluptate aspernatur nam ratione harum eum!
+                  </p>
+                </div>
+                <a class="btn-custom btn-hero">Get started</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./src/images/Banner.png"
+                alt="Third slide"
+              />
+              <div class="caption-carousel">
+                <div class="main-heading">
+                  <h2 class="subtitle-one">All The Tools</h2>
+                  <h2 class="subtitle-two">You Need To</h2>
+                  <h1 class="title">Build A Successful Store...</h1>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Nostrum voluptate aspernatur nam ratione harum eum! Nostrum
+                    voluptate aspernatur nam ratione harum eum!
+                  </p>
+                </div>
+                <a class="btn-custom btn-hero">Get started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendation">
+        <div class="reco-inner">
+          <div class="reco-content">
+            <h2 class="subtitle">Recommended For You</h2>
+            <h1 class="title">Bring Your Business Online</h1>
+            <p class="description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Adipisci, exercitationem repudiandae. Dolor officia itaque
+              voluptates vero iste. In, tenetur distinctio!
+            </p>
+          </div>
+          <div class="view-wrap">
+            <a href="#" class="view-link">View all</a>
+          </div>
+        </div>
+        <div class="reco-slider">
+          <div class="slider recommendation-slider">
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 01.png" alt="" srcset="" />
+                <p class="tag">Electronic Devices</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 02.png" alt="" srcset="" />
+                <p class="tag">Food & Drink</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 03.png" alt="" srcset="" />
+                <p class="tag">Grocery Shop</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 01.png" alt="" srcset="" />
+                <p class="tag">Electronic Devices</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 02.png" alt="" srcset="" />
+                <p class="tag">Food & Drink</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 03.png" alt="" srcset="" />
+                <p class="tag">Grocery Shop</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 01.png" alt="" srcset="" />
+                <p class="tag">Electronic Devices</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 02.png" alt="" srcset="" />
+                <p class="tag">Food & Drink</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+            <div class="slides">
+              <div class="slide-content">
+                <img src="./src/images/Mask Group 03.png" alt="" srcset="" />
+                <p class="tag">Grocery Shop</p>
+                <h1 class="title">Alfred</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="banner-wrap">
+          <div class="banner-heading">
+            <h2 class="subtitle">What Do You Want</h2>
+            <h1 class="title">To Add To Your Website?</h1>
+            <p class="description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Adipisci, exercitationem repudiandae. Dolor officia itaque
+              voluptates vero iste. In, tenetur distinctio!
+            </p>
+          </div>
+          <div class="banner-description">
+            <div class="banner-content-wrap">
+              <div class="banner-content">
+                <h1>
+                  Sed Vitae Elit Dui. Nunc Sit Amet Nibh Quis Leo Porttitor
+                </h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque veniam odit, earum delectus dignissimos impedit.
+                </p>
+                <ul>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                </ul>
+                <a class="btn-custom btn-banner">Know more</a>
+              </div>
+              <div class="banner-image">
+                <img src="./src/images/banner-img-01.png" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="banner-content-wrap banner-alt">
+              <div class="banner-content">
+                <h1>
+                  Phasellus Eleifend Elit Non Lorem Lobortis Tristique In Hac
+                </h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque veniam odit, earum delectus dignissimos impedit.
+                </p>
+                <ul>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                </ul>
+                <a class="btn-custom btn-banner">Know more</a>
+              </div>
+              <div class="banner-image">
+                <img src="./src/images/banner-img-02.png" alt="" srcset="" />
+              </div>
+            </div>
+            <div class="banner-content-wrap">
+              <div class="banner-content">
+                <h1>
+                  Sed Vitae Elit Dui. Nunc Sit Amet Nibh Quis Leo Porttitor
+                </h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Cumque veniam odit, earum delectus dignissimos impedit.
+                </p>
+                <ul>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit.
+                  </li>
+                  <li>
+                    <i class="far fa-check-circle"></i> Dolor officia officia
+                    itaque voluptates vero iste.
+                  </li>
+                </ul>
+                <a class="btn-custom btn-banner">Know more</a>
+              </div>
+              <div class="banner-image">
+                <img src="./src/images/banner-img-03.png" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features-wrap">
+          <div class="features-heading">
+            <h2 class="subtitle">Features</h2>
+            <h1 class="title">To Add To Your Website?</h1>
+            <p class="description">
+              Fusce posuere ac enim non ornare. Morbi lacus felis, laoreet a
+              nunc et, volutpat tincidunt velit. Suspendi sseaugue dolo potenti.
+            </p>
+          </div>
+          <div class="features-card">
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-dashboard.png" alt="" srcset="" />
+              </div>
+              <h1>Powerful Dashboard</h1>
+              <p>
+                Our system offers a powerful dashboard where admin users can see
+                the details like total number of events, total tickets sold even
+                with a graphical view with live data.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-pos.png" alt="" srcset="" />
+              </div>
+              <h1>POS</h1>
+              <p>
+                POS is one among the major features where you can sell the
+                tickets from the venue under each category by mentioning the
+                number of tickets and collect the payment as either cash or
+                Card. You can even print tickets from this.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-pos.png" alt="" srcset="" />
+              </div>
+              <h1>Multiple Ticket Category</h1>
+              <p>
+                You can create multiple ticket categories as Early , Pre or
+                Regular tickets and set date and time for each category to start
+                and end with the number of tickets. Also the reports can be
+                downloaded in CSV or PDF.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-print.png" alt="" srcset="" />
+              </div>
+              <h1>Print Ticket</h1>
+              <p>
+                Simply print the ticket by entering the serial number for the
+                ticket. So customers can avoid the hassle of carrying the hard
+                printed tickets.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-check.png" alt="" srcset="" />
+              </div>
+              <h1>Easy Check-In</h1>
+              <p>
+                With the easy check-in scan the QR code and provide access to
+                the customers for your events.
+              </p>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./src/images/icon-event.png" alt="" srcset="" />
+              </div>
+              <h1>Custom Events</h1>
+              <p>
+                You can customize the events the way you want. You can set
+                custom designs for each events, customize on the user level or
+                event level. And can have multiple types of events like Public
+                or Private Events
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-section">
+        <div class="footer-content">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Quick Links</h3>
+            </div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="#">Platform Experience</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Our Services</h3>
+            </div>
+            <ul>
+              <li><a href="#">Visual</a></li>
+              <li><a href="#">Expand</a></li>
+              <li><a href="#">Annualize</a></li>
+              <li><a href="#">Trach</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Important Links</h3>
+            </div>
+            <ul>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Contact Information</h3>
+            </div>
+            <ul class="contact-info">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Aprox Tower, 1St Floor,
+                Office No. 109, Business Bay, Dubai, UAE
+              </li>
+              <li><i class="fas fa-envelope"></i> support@lamha.com</li>
+              <li>
+                <i class="fas fa-phone-alt"></i>Contact Us Free
+                <span>(+971)-56-6027916</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-input">
+          <p>Sign Up To Get Latest Updates</p>
+          <div class="input-section">
+            <div class="input-group">
+              <i class="far fa-envelope"></i>
+              <input type="email" placeholder="Your email address" />
+            </div>
+            <a class="btn-custom btn-footer" href="">Submit</a>
+          </div>
+        </div>
+      </div>
+      <hr class="gray-line" />
+      <div class="footer-section">
+        <div class="copyright-area">
+          <div class="copyright-text">
+            <p>
+              &copy; Copyright 2022 <a href="./index.html">Lamha</a>, All Right
+              Reserved
+            </p>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-linkedin-in"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+            </ul>
+          </div>
+          <div class="developer-info">
+            <p>Design and Developed by Royex Technologies</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+    <script src="./src/js/slick.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
